@@ -1,0 +1,101 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Portfolio Website</title>
+    <link rel="stylesheet" href="portfolio3.css">
+    <link href='https://unpkg.com/boxicons@2.1.4/css/boxicons.min.css' rel='stylesheet'>
+</head>
+<body onload="document.body.style.opacity='1'">
+    <div class="hero">
+        <div class="nav">
+            <div class="logo">
+                <h2>Sahil</h2>
+            </div>
+            <div class="link">
+                <ul>
+                    <li><a href="#about" class="active">About</a></li>
+                    <li><a href="#work">Work</a></li>
+                    <li><a href="#experience">Experience</a></li>
+                    <li><a href="#contact">Contact</a></li>
+                </ul>
+            </div>
+        </div>
+
+        <div class="main">
+            <img src="b2c64613095fbca8811300c0dbf9d7b2.jpg" alt="men" class="men">
+            <div class="main-detail">
+                <p>Hello, I'm</p>
+                <h1>Sahil</h1>
+                <h4>Website Developer</h4>
+
+                <div class="btn">
+                    <button type="submit">Download CV</button>
+                    <button type="submit" class="btn-2">Hire Me</button>
+                </div>
+
+                <div class="social">
+                    <i class='bx bxl-github'></i>
+                    <i class='bx bxl-instagram'></i>
+                </div>
+            </div>
+        </div>
+        <div class="sub-btn">
+            <a href="https://www.youtube.com/channel/UC7lk4Ui-B-hRUpLs_6IQcZw/">SUBSCRIBE</a>
+        </div>
+    </div>
+
+    <!-- About Section -->
+    <section id="about" class="section about">
+        <h2>About Me</h2>
+        <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Quisque sit amet accumsan tortor.</p>
+    </section>
+
+    <!-- Contact Section -->
+    <section id="contact" class="section contact">
+        <h2>Contact Us</h2>
+        <form>
+            <label for="name">Name:</label>
+            <input type="text" id="name" name="name" required>
+            
+            <label for="email">Email:</label>
+            <input type="email" id="email" name="email" required>
+            
+            <label for="message">Message:</label>
+            <textarea id="message" name="message" required></textarea>
+            
+            <button type="submit">Send Message</button>
+        </form>
+    </section>
+    <section id="experience" class="section experience">
+        <h2>Experience</h2>
+        <div class="experience-items">
+            <div class="experience-item">
+                <h3>Job Title</h3>
+                <p>Company Name | Month Year - Month Year</p>
+                <p>Description of responsibilities and achievements.</p>
+            </div>
+        </div>
+    </section>
+
+    <!-- Work Section -->
+    <section id="work" class="section work">
+        <h2>My Work</h2>
+        <div class="work-items">
+            <div class="work-item">
+                <img src="work-image-1.jpg" alt="Work 1">
+                <h3>Project Title</h3>
+                <p>Description of the project or work done.</p>
+            </div>
+
+            <div class="work-item">
+                <img src="work-image-2.png" alt="Work 2">
+                <h3>Project Title 2</h3>
+                <p>Description of the project or work done.</p>
+            </div>
+        </div>
+    </section>
+
+</body>
+</html>
